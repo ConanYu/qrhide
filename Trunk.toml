@@ -1,0 +1,7 @@
+[build]
+public_url = "/qrhide"
+dist = "docs"
+
+[serve]
+public_url = "/qrhide"
+address = "0.0.0.0"

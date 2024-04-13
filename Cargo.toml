@@ -1,0 +1,19 @@
+[package]
+name = "qrhide"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "*"
+base64 = "*"
+chrono = "*"
+fast_qr = { version = "*", features = ["image"] }
+gloo = "*"
+image = "*"
+js-sys = "*"
+log = "*"
+wasm-bindgen = "*"
+wasm-logger = "*"
+wasm-bindgen-futures = "*"
+web-sys = "*"
+yew = { version = "0.21.0", features = ["csr"] }
